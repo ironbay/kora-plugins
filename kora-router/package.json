@@ -1,0 +1,22 @@
+{
+  "name": "@ironbay/kora-router",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "push": "npm run build && npm version patch && npm publish --access public"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ironbay/dynamic": "^1.0.8",
+    "@ironbay/kora": "2.4.23",
+    "query-string": "^6.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.8.1"
+  }
+}
